@@ -1,6 +1,6 @@
 # Java Object-Oriented Programming
 
-Project created to study the Java language through [https://cursos.alura.com.br/formacao-java](Formação Java e Orientação a Objetos), by Alura school.
+Project created to study the Java language through [Formação Java e Orientação a Objetos](https://cursos.alura.com.br/formacao-java) courses.
 
 ## Topics
 
