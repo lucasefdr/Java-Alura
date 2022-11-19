@@ -37,7 +37,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.A03ExerciseIR">
+  <component name="RunManager" selected="Application.A04ControlStructures">
     <configuration name="A01Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B01Introduction.A01Variables" />
       <module name="Java-OO-Alura" />
@@ -77,8 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A04ControlStructures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B01Introduction.A04ControlStructures" />
+      <module name="Java-OO-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.lucasefdr.B01Introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A04ControlStructures" />
         <item itemvalue="Application.A03ExerciseIR" />
         <item itemvalue="Application.A02ConditionalStructures" />
         <item itemvalue="Application.A01Variables" />
