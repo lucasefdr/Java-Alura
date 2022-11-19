@@ -7,4 +7,4 @@ Project created to study the Java language through [Formação Java e Orientaç�
 ### Introduction
 - [x]  How Java works?
 - [x]  Variables
-- [x]  Datatypes
+- [x]  Datatypes: int, long, double, float, byte, short, char

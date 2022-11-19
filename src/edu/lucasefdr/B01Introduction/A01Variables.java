@@ -21,5 +21,13 @@ public class A01Variables {
         int castDoubleToInt = (int) varSalary;
 
         System.out.println(castDoubleToInt);
+
+        // char
+        char asciiValue = 66;
+        System.out.println(asciiValue);
+
+        // String
+        String text = "Brasil hexacampeão 2022";
+        System.out.println(text);
     }
 }
