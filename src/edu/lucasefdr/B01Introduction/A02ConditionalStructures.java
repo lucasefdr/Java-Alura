@@ -10,10 +10,16 @@ public class A02ConditionalStructures {
         System.out.println("Digite a sua idade:");
         int idade = scanner.nextInt();
 
-        if (idade >= 18) {
-            System.out.println("Você é maior de idade!");
+        System.out.println("Digite a quantidade de pessoas: ");
+        int quantidadeDePessoas = scanner.nextInt();
+
+        boolean maiorDeIdade = idade >= 18;
+        boolean estaAcompanhado = quantidadeDePessoas >= 2;
+
+        if (maiorDeIdade || estaAcompanhado) {
+            System.out.println("Seja bem-vindo!");
         } else {
-            System.out.println("Você não é maior de idade!");
+            System.out.println("Você não pode entrar!");
         }
     }
 }
