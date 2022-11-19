@@ -9,3 +9,4 @@ Project created to study the Java language through **[Formação Java e Orienta�
 - [x]  **Variables**
 - [x]  **Data types:** *int, long, double, float, byte, short, char, boolean*
 - [x]  **Conditional structures:** *if, else*
+- [x]  **Control structures:** *while*
