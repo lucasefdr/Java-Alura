@@ -16,12 +16,11 @@ public class Conta {
     }
 
     public Conta(int numero, int agencia) throws Exception {
+        // this();
         if (numero <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
         if (agencia <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
         this.agencia = agencia;
         this.numero = numero;
-        Conta.totalDeContas++;
-        System.out.println("Total de contas: " + totalDeContas);
     }
 
     // métodos
