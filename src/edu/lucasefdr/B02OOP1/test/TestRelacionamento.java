@@ -1,7 +1,7 @@
-package edu.lucasefdr.B02OOP.test;
+package edu.lucasefdr.B02OOP1.test;
 
-import edu.lucasefdr.B02OOP.model.Cliente;
-import edu.lucasefdr.B02OOP.model.Conta;
+import edu.lucasefdr.B02OOP1.model.Cliente;
+import edu.lucasefdr.B02OOP1.model.Conta;
 
 public class TestRelacionamento {
     public static void main(String... args) {

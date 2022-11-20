@@ -1,4 +1,4 @@
-package edu.lucasefdr.B02OOP.model;
+package edu.lucasefdr.B02OOP1.model;
 
 public class Cliente {
     private String nome;
