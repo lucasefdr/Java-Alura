@@ -6,16 +6,16 @@ public class TestaConta {
     public static void main(String... args) {
         // criando e instanciando um objeto
         Conta primeiraConta = new Conta();
-        primeiraConta.saldo = 200;
-        System.out.println(primeiraConta.saldo);
+        primeiraConta.deposita(200);
+        System.out.println(primeiraConta.getSaldo());
 
         Conta segundaConta = new Conta();
-        segundaConta.saldo = 250;
-        System.out.println(segundaConta.saldo);
+        segundaConta.deposita(250);
+        System.out.println(segundaConta.getSaldo());
 
         // os objetos são referências de memória e não valor
         Conta terceiraConta = primeiraConta;
-        terceiraConta.saldo = 500;
+        terceiraConta.deposita(500);
         System.out.println(primeiraConta);
         System.out.println(terceiraConta);
 

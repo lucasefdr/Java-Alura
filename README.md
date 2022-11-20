@@ -17,3 +17,5 @@
 - [x]  **Class and objects**
 - [x]  **Attributes and methods**
 - [x]  **Object reference in memory**
+- [x]  **Relationship between classes:** *composition*
+- [x]  **Encapsulation:** *private, getter, setter*
