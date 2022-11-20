@@ -8,6 +8,17 @@ public class Conta {
     private int numero;
     private Cliente titular;
 
+    // constructors
+    public Conta() {
+    }
+
+    public Conta(int numero, int agencia) throws Exception {
+        if (numero <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
+        if (agencia <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
+        this.agencia = agencia;
+        this.numero = numero;
+    }
+
     // métodos
     public void deposita(double valor) {
         this.saldo += valor;
@@ -39,16 +50,8 @@ public class Conta {
         return agencia;
     }
 
-    public void setAgencia(int agencia) {
-        this.agencia = agencia;
-    }
-
     public int getNumero() {
         return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
     }
 
     public Cliente getTitular() {
