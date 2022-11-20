@@ -1,9 +1,10 @@
 package edu.lucasefdr.B03OOP2.model;
 
 public class Funcionario {
-    protected String nome;
-    protected String cpf;
-    protected double salario;
+    // modificador de acesso protected = os 'filhos' também enxergam os atributos
+    private String nome;
+    private String cpf;
+    private double salario;
 
     public Funcionario() {
     }
@@ -22,6 +23,7 @@ public class Funcionario {
         System.out.println("Nome do funcionário: " + this.getNome());
         System.out.println("CPF do funcionário: " + this.cpf);
         System.out.println("Salário do funcionário: R$" + this.salario);
+        System.out.println("Bonificação: R$" + getBonificacao());
     }
 
     public String getNome() {
