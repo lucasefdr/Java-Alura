@@ -7,9 +7,12 @@ public class Conta {
     private int agencia;
     private int numero;
     private Cliente titular;
+    private static int totalDeContas;
 
     // constructors
     public Conta() {
+        Conta.totalDeContas++;
+        System.out.println("Total de contas: " + totalDeContas);
     }
 
     public Conta(int numero, int agencia) throws Exception {
@@ -17,6 +20,8 @@ public class Conta {
         if (agencia <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
         this.agencia = agencia;
         this.numero = numero;
+        Conta.totalDeContas++;
+        System.out.println("Total de contas: " + totalDeContas);
     }
 
     // métodos
@@ -60,6 +65,10 @@ public class Conta {
 
     public void setTitular(Cliente titular) {
         this.titular = titular;
+    }
+
+    public static int getTotalDeContas() {
+        return Conta.totalDeContas;
     }
 }
 
