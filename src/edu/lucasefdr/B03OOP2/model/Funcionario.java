@@ -1,9 +1,9 @@
 package edu.lucasefdr.B03OOP2.model;
 
 public class Funcionario {
-    private String nome;
-    private String cpf;
-    private double salario;
+    protected String nome;
+    protected String cpf;
+    protected double salario;
 
     public Funcionario() {
     }
@@ -15,7 +15,7 @@ public class Funcionario {
     }
 
     public double getBonificacao() {
-        return this.salario * 0.1;
+        return getSalario() * 0.1;
     }
 
     public void imprimeInformacoes() {
