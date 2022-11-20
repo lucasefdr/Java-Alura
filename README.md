@@ -16,3 +16,4 @@
 - [x]  **What's OOP?**
 - [x]  **Class and objects**
 - [x]  **Attributes and methods**
+- [x]  **Object reference in memory**
