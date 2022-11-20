@@ -8,5 +8,10 @@ public class TestaMetodo {
         primeiraConta.saldo = 560;
         primeiraConta.deposita(200);
         System.out.println(primeiraConta.saldo);
+
+        // método com retorno
+        boolean conseguiuRetirar = primeiraConta.saca(500);
+        if (conseguiuRetirar) System.out.println("O saque foi feito com sucesso");
+        System.out.println(primeiraConta.saldo);
     }
 }
