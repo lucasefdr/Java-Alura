@@ -11,7 +11,7 @@ public class TesteRelacionamento {
         lucas.profissao = "Desenvolvedor";
 
         Conta contaDoLucas = new Conta();
-        contaDoLucas.titular = lucas;
-        System.out.println("Nome do titular: " + contaDoLucas.titular.nome);
+        contaDoLucas.setTitular(lucas);
+        System.out.println("Nome do titular: " + contaDoLucas.getTitular().nome);
     }
 }
