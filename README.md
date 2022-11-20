@@ -1,6 +1,6 @@
-# Java and Object-Oriented Programming
+# Java and object-oriented programming
 
-- Project created to study **Java and Object-Oriented Programming** 
+- Project created to study **Java and object-oriented programming** 
 - **[Formação Java e Orientação a Objetos](https://cursos.alura.com.br/formacao-java)** 
 
 ## Topics
@@ -12,7 +12,7 @@
 - [x]  **Conditional structures:** *if, else*
 - [x]  **Control structures:** *while, for*
 
-### Object-Oriented Programming
+### Object-oriented programming
 - [x]  **What's OOP?**
 - [x]  **Class and objects**
 - [x]  **Attributes and methods**
