@@ -1,4 +1,4 @@
-# Java Object-Oriented Programming
+# Java and Object-Oriented Programming
 
 - Project created to study **Java and Object-Oriented Programming** 
 - **[Formação Java e Orientação a Objetos](https://cursos.alura.com.br/formacao-java)** 

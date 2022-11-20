@@ -2,7 +2,7 @@ package edu.lucasefdr.B02OOP.test;
 
 import edu.lucasefdr.B02OOP.model.Conta;
 
-public class TestaMetodo {
+public class TestMetodo {
     public static void main(String... args) {
         Conta primeiraConta = new Conta();
         primeiraConta.deposita(560);

@@ -2,7 +2,7 @@ package edu.lucasefdr.B02OOP.test;
 
 import edu.lucasefdr.B02OOP.model.Conta;
 
-public class TestaConta {
+public class TestConta {
     public static void main(String... args) {
         // criando e instanciando um objeto
         Conta primeiraConta = new Conta();
