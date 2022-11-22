@@ -1,24 +1,24 @@
 package edu.lucasefdr.B03OOP2.model.empresa;
 
 /**
- * Gerente <strong>é</strong> um Funcionário. <br>
- * Gerente <strong>herda</strong> de Funcionário. <br>
- * Gerente <strong>implementa</strong> a classe Autenticavel.
+ * Administrador <strong>é</strong> um Funcionário. <br>
+ * Administrador <strong>herda</strong> de Funcionário.
+ * Administrador <strong>implementa</strong> a classe Autenticavel.
  */
-public class Gerente extends Funcionario implements Autenticavel {
+public class Administrador extends Funcionario implements Autenticavel {
     private int senha;
 
-    public Gerente() {
+    public Administrador() {
     }
 
-    public Gerente(String nome, String cpf, double salario) {
+    public Administrador(String nome, String cpf, double salario) {
         super(nome, cpf, salario);
     }
 
     @Override
     public double getBonificacao() {
         System.out.println("Bonificação do Gerente");
-        return super.getSalario() + 400;
+        return super.getSalario() + 650;
     }
 
     @Override
