@@ -13,10 +13,9 @@ public class Designer extends Funcionario {
         super(nome, cpf, salario);
     }
 
-    // sobrescrevendo métodos
     @Override
     public double getBonificacao() {
         System.out.println("Bonificação do Designer");
-        return super.getBonificacao() + super.getSalario() + 200;
+        return super.getSalario() + 200;
     }
 }

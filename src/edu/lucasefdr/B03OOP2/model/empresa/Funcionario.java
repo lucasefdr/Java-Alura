@@ -4,7 +4,6 @@ package edu.lucasefdr.B03OOP2.model.empresa;
  * <strong>Classes abstratas</strong>: abstração do mundo real. "Não existe" e não pode ser instanciada.
  */
 public abstract class Funcionario {
-    // modificador de acesso protected = os 'filhos' também enxergam os atributos
     private String nome;
     private String cpf;
     private double salario;
@@ -18,9 +17,10 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
-    public double getBonificacao() {
-        return getSalario() * 0.1;
-    }
+    /**
+     * <strong>Métodos abstratos:</strong> são usados para indicar que os "filhos" serão obrigados a implementar a lógica do método.
+     */
+    public abstract double getBonificacao();
 
     public void imprimeInformacoes() {
         System.out.println("Nome do funcionário: " + this.getNome());

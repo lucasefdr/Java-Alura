@@ -3,32 +3,36 @@ package edu.lucasefdr.B03OOP2.model.banco;
 import edu.lucasefdr.B02OOP1.model.Cliente;
 
 /**
- * <strong>Classes abstratas</strong>: abstração do mundo real. "Não existe" e não pode ser instanciada.
+ * <strong>Classes abstratas:</strong> abstração do mundo real. "Não existe" e não pode ser instanciada.
  */
 public abstract class Conta {
-    // atributos
-    // encapsulamento: private
+    /**
+     * <strong>Atributos:</strong> são as propriedades das classes
+     */
     private double saldo;
     private int agencia;
     private int numero;
     private Cliente titular;
     private static int totalDeContas;
 
-    // constructor
+    /**
+     * <strong>Construtores:</strong>
+     */
     public Conta() {
         Conta.totalDeContas++;
         System.out.println("Total de contas: " + totalDeContas);
     }
 
     public Conta(int numero, int agencia) throws Exception {
-        // this();
         if (numero <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
         if (agencia <= 0) throw new Exception("Número da conta não pode ser 0 ou negativo");
         this.agencia = agencia;
         this.numero = numero;
     }
 
-    // métodos
+    /**
+     * <strong>Métodos:</strong> são as ações que um objeto instanciado através da classe pode realizar.
+     */
     public void deposita(double valor) {
         this.saldo += valor;
     }
@@ -50,7 +54,9 @@ public abstract class Conta {
         return true;
     }
 
-    // getters
+    /**
+     * <strong>Getters:</strong> usado para "obter" valores que não são públicos.
+     */
     public double getSaldo() {
         return saldo;
     }
@@ -71,7 +77,9 @@ public abstract class Conta {
         return Conta.totalDeContas;
     }
 
-    // setters
+    /**
+     * <strong>Setters:</strong> usados para "modificar" valores que não são públicos.
+     */
     public void setTitular(Cliente titular) {
         this.titular = titular;
     }

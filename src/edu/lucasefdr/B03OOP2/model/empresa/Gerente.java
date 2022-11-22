@@ -13,10 +13,9 @@ public class Gerente extends Funcionario {
         super(nome, cpf, salario);
     }
 
-    // sobrescrevendo métodos
     @Override
     public double getBonificacao() {
         System.out.println("Bonificação do Gerente");
-        return super.getBonificacao() + super.getSalario() + 400;
+        return super.getSalario() + 400;
     }
 }
