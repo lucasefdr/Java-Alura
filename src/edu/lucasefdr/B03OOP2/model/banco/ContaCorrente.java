@@ -1,4 +1,4 @@
-package edu.lucasefdr.B03OOP2.model;
+package edu.lucasefdr.B03OOP2.model.banco;
 
 import edu.lucasefdr.B02OOP1.model.Conta;
 

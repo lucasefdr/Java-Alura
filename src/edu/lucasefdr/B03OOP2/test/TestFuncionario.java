@@ -1,10 +1,11 @@
 package edu.lucasefdr.B03OOP2.test;
 
-import edu.lucasefdr.B03OOP2.model.Funcionario;
+import edu.lucasefdr.B03OOP2.model.empresa.Funcionario;
+import edu.lucasefdr.B03OOP2.model.empresa.Gerente;
 
 public class TestFuncionario {
     public static void main(String... args) {
-        Funcionario lucas = new Funcionario("Lucas Ferreira", "999-999-111-11", 4400);
+        Gerente lucas = new Gerente("Lucas Ferreira", "999-999-111-11", 4400);
         lucas.imprimeInformacoes();
     }
 }

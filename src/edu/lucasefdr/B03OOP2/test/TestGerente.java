@@ -1,8 +1,8 @@
 package edu.lucasefdr.B03OOP2.test;
 
-import edu.lucasefdr.B03OOP2.model.ControleBonificacao;
-import edu.lucasefdr.B03OOP2.model.Funcionario;
-import edu.lucasefdr.B03OOP2.model.Gerente;
+import edu.lucasefdr.B03OOP2.model.empresa.ControleBonificacao;
+import edu.lucasefdr.B03OOP2.model.empresa.Funcionario;
+import edu.lucasefdr.B03OOP2.model.empresa.Gerente;
 
 public class TestGerente {
     public static void main(String[] args) {

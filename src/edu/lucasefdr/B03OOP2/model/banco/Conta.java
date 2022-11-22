@@ -1,8 +1,11 @@
-package edu.lucasefdr.B03OOP2.model;
+package edu.lucasefdr.B03OOP2.model.banco;
 
 import edu.lucasefdr.B02OOP1.model.Cliente;
 
-public class Conta {
+/**
+ * <strong>Classes abstratas</strong>: abstração do mundo real. "Não existe" e não pode ser instanciada.
+ */
+public abstract class Conta {
     // atributos
     // encapsulamento: private
     private double saldo;

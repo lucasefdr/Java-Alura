@@ -1,6 +1,9 @@
-package edu.lucasefdr.B03OOP2.model;
+package edu.lucasefdr.B03OOP2.model.empresa;
 
-public class Funcionario {
+/**
+ * <strong>Classes abstratas</strong>: abstração do mundo real. "Não existe" e não pode ser instanciada.
+ */
+public abstract class Funcionario {
     // modificador de acesso protected = os 'filhos' também enxergam os atributos
     private String nome;
     private String cpf;

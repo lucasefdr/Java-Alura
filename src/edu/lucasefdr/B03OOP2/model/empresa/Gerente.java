@@ -1,4 +1,4 @@
-package edu.lucasefdr.B03OOP2.model;
+package edu.lucasefdr.B03OOP2.model.empresa;
 
 /**
  * Gerente <strong>é</strong> um Funcionário. <br>

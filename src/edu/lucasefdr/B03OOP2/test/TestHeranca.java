@@ -1,7 +1,7 @@
 package edu.lucasefdr.B03OOP2.test;
 
-import edu.lucasefdr.B03OOP2.model.Designer;
-import edu.lucasefdr.B03OOP2.model.Gerente;
+import edu.lucasefdr.B03OOP2.model.empresa.Designer;
+import edu.lucasefdr.B03OOP2.model.empresa.Gerente;
 
 public class TestHeranca {
     public static void main(String[] args) {

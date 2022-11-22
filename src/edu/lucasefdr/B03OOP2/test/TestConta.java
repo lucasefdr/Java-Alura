@@ -1,7 +1,7 @@
 package edu.lucasefdr.B03OOP2.test;
 
-import edu.lucasefdr.B03OOP2.model.ContaCorrente;
-import edu.lucasefdr.B03OOP2.model.ContaPoupanca;
+import edu.lucasefdr.B03OOP2.model.banco.ContaCorrente;
+import edu.lucasefdr.B03OOP2.model.banco.ContaPoupanca;
 
 public class TestConta {
     public static void main(String[] args) throws Exception {
