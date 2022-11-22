@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/ControleBonificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestGerente.java" afterDir="false" />
-    </list>
+    <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +42,7 @@
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\edu\lucasefdr\B03Polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestGerente">
+  <component name="RunManager" selected="Application.TestHeranca">
     <configuration name="TestConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B02OOP1.test.TestConstructor" />
       <module name="Java-Alura" />
@@ -99,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRelacionamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B02OOP1.test.TestRelacionamento" />
+    <configuration name="TestHeranca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.test.TestHeranca" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B02OOP1.test.*" />
+          <option name="PATTERN" value="edu.lucasefdr.B03OOP2.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestHeranca" />
         <item itemvalue="Application.TestGerente" />
         <item itemvalue="Application.TestFuncionario" />
         <item itemvalue="Application.TestConstructor" />
         <item itemvalue="Application.TestGetSet" />
-        <item itemvalue="Application.TestRelacionamento" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +131,7 @@
       <workItem from="1668906785575" duration="3197000" />
       <workItem from="1668941556679" duration="7365000" />
       <workItem from="1668954736312" duration="34000" />
-      <workItem from="1668974000968" duration="6407000" />
+      <workItem from="1668974000968" duration="7448000" />
     </task>
     <servers />
   </component>

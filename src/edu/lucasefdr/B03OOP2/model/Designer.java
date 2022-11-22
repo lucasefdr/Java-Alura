@@ -4,19 +4,19 @@ package edu.lucasefdr.B03OOP2.model;
  * Gerente <strong>é</strong> um Funcionário. <br>
  * Gerente <strong>herda</strong> de Funcionário.
  */
-public class Gerente extends Funcionario {
+public class Designer extends Funcionario {
 
-    public Gerente() {
+    public Designer() {
     }
 
-    public Gerente(String nome, String cpf, double salario) {
+    public Designer(String nome, String cpf, double salario) {
         super(nome, cpf, salario);
     }
 
     // sobrescrevendo métodos
     @Override
     public double getBonificacao() {
-        System.out.println("Bonificação do Gerente");
-        return super.getBonificacao() + super.getSalario() + 400;
+        System.out.println("Bonificação do Designer");
+        return super.getBonificacao() + super.getSalario() + 200;
     }
 }
