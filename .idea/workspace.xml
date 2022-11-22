@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/ControleBonificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestFuncionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestGerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +135,7 @@
       <workItem from="1668906785575" duration="3197000" />
       <workItem from="1668941556679" duration="7365000" />
       <workItem from="1668954736312" duration="34000" />
-      <workItem from="1668974000968" duration="3487000" />
+      <workItem from="1668974000968" duration="6407000" />
     </task>
     <servers />
   </component>
