@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B02OOP1/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B02OOP1/model/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1668941556679" duration="7365000" />
       <workItem from="1668954736312" duration="34000" />
       <workItem from="1668974000968" duration="7834000" />
-      <workItem from="1669111292566" duration="1661000" />
+      <workItem from="1669111292566" duration="3832000" />
     </task>
     <servers />
   </component>

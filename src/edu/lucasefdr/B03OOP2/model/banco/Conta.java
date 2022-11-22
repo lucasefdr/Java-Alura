@@ -9,14 +9,14 @@ public abstract class Conta {
     /**
      * <strong>Atributos:</strong> são as propriedades das classes
      */
-    private double saldo;
+    protected double saldo;
     private int agencia;
     private int numero;
     private Cliente titular;
     private static int totalDeContas;
 
     /**
-     * <strong>Construtores:</strong>
+     * <strong>Construtores:</strong> indicam o que será passado como argumentos na hora da instanciação dos objetos.
      */
     public Conta() {
         Conta.totalDeContas++;
@@ -33,9 +33,7 @@ public abstract class Conta {
     /**
      * <strong>Métodos:</strong> são as ações que um objeto instanciado através da classe pode realizar.
      */
-    public void deposita(double valor) {
-        this.saldo += valor;
-    }
+    public abstract void deposita(double valor);
 
     public boolean saca(double valor) {
         if (this.saldo >= valor) {
