@@ -2,7 +2,7 @@ package edu.lucasefdr.B03OOP2.model.empresa;
 
 /**
  * Administrador <strong>é</strong> um Funcionário. <br>
- * Administrador <strong>herda</strong> de Funcionário.
+ * Administrador <strong>herda</strong> de Funcionário. <br>
  * Administrador <strong>implementa</strong> a classe Autenticavel.
  */
 public class Administrador extends Funcionario implements Autenticavel {
@@ -23,7 +23,7 @@ public class Administrador extends Funcionario implements Autenticavel {
 
     @Override
     public void setSenha(int senha) {
-
+        this.senha = senha;
     }
 
     @Override

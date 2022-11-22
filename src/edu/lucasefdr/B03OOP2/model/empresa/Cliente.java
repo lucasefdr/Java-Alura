@@ -5,7 +5,7 @@ public class Cliente implements Autenticavel {
 
     @Override
     public void setSenha(int senha) {
-
+        this.senha = senha;
     }
 
     @Override
