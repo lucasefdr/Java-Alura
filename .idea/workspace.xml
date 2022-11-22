@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/EstudoInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/AutenticacaoUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/SistemaInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/empresa/SistemaInterno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +53,13 @@
       <recent name="edu.lucasefdr.B02OOP1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestInterface">
-    <configuration name="TestConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.test.TestConta" />
+  <component name="RunManager" selected="Application.Interface">
+    <configuration name="Interface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.Interface" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B03OOP2.test.*" />
+          <option name="PATTERN" value="edu.lucasefdr.B03OOP2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interface" />
         <item itemvalue="Application.TestInterface" />
         <item itemvalue="Application.TestSistema" />
         <item itemvalue="Application.TestHeranca" />
         <item itemvalue="Application.TestGerente" />
-        <item itemvalue="Application.TestConta" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +145,7 @@
       <workItem from="1668974000968" duration="7834000" />
       <workItem from="1669111292566" duration="3998000" />
       <workItem from="1669152891305" duration="3025000" />
-      <workItem from="1669155977211" duration="939000" />
+      <workItem from="1669155977211" duration="2373000" />
     </task>
     <servers />
   </component>

@@ -1,15 +1,22 @@
 package edu.lucasefdr.B03OOP2.model.empresa;
 
 public class Cliente implements Autenticavel {
-    private int senha;
+    /**
+     * <strong>Injetando</strong> a classe AutenticacaoUtil
+     */
+    private AutenticacaoUtil autenticador;
+
+    public Cliente() {
+        this.autenticador = new AutenticacaoUtil();
+    }
 
     @Override
     public void setSenha(int senha) {
-        this.senha = senha;
+        this.autenticador.setSenha(senha);
     }
 
     @Override
     public boolean autentica(int senha) {
-        return this.senha == senha;
+        return autenticador.autentica(senha);
     }
 }
