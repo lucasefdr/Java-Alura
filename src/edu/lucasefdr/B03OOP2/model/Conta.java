@@ -1,4 +1,6 @@
-package edu.lucasefdr.B02OOP1.model;
+package edu.lucasefdr.B03OOP2.model;
+
+import edu.lucasefdr.B02OOP1.model.Cliente;
 
 public class Conta {
     // atributos
