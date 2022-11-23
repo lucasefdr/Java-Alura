@@ -1,6 +1,6 @@
 package edu.lucasefdr.B04Exceptions.domain;
 
-public class Fluxo {
+public class FluxoComTratamento {
     /**
      * Exemplo de call stack
      */
@@ -15,16 +15,20 @@ public class Fluxo {
         try {
             metodo2();
         } catch (ArithmeticException | NullPointerException ex) {
-            String message = ex.getClass().getSimpleName() + ": " + ex.getMessage();
-            System.out.println(message);
+            // ex.printStackTrace();
+            System.out.println(ex.getClass().getSimpleName() + ": " + ex.getMessage());
         }
         System.out.println("Fim do metodo1");
     }
 
     private static void metodo2() {
         System.out.println("Ini do metodo2");
-        // "Jogando" a exception para baixo
-        throw new ArithmeticException("throw exception");
-        // System.out.println("Fim do metodo2");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+            // int a = i / 0;
+            Conta c = null;
+            c.deposita();
+        }
+        System.out.println("Fim do metodo2");
     }
 }

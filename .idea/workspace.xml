@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Fluxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/FluxoComTratamento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Fluxo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\edu\lucasefdr\B03Polymorphism" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.lucasefdr.B04Exceptions.domain" />
       <recent name="edu.lucasefdr.B03OOP2.model.empresa" />
       <recent name="edu.lucasefdr.B03OOP2.model" />
       <recent name="edu.lucasefdr.B02OOP1.model" />
@@ -148,7 +149,7 @@
       <workItem from="1669155977211" duration="6591000" />
       <workItem from="1669169670824" duration="705000" />
       <workItem from="1669217336111" duration="7000" />
-      <workItem from="1669235024203" duration="2228000" />
+      <workItem from="1669235024203" duration="3440000" />
     </task>
     <servers />
   </component>
