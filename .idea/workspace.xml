@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/AcaoBolsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/CalculadorDeImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Tributavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteCalculadorImposto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/E01Enum/Prioridade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/E01Enum/TesteEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/EstudoInterfaces.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteFuncionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteGerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestHeranca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteHeranca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TestSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteSistema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +16,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -62,7 +53,7 @@
       <recent name="edu.lucasefdr.B02OOP1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteCalculadorImposto">
+  <component name="RunManager" selected="Application.TesteEnum">
     <configuration name="EstudoComposicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.EstudoComposicao" />
       <module name="Java-Alura" />
@@ -115,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.test.TesteInterface" />
+    <configuration name="TesteEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.E01Enum.TesteEnum" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B03OOP2.test.*" />
+          <option name="PATTERN" value="edu.lucasefdr.E01Enum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteEnum" />
         <item itemvalue="Application.TesteCalculadorImposto" />
         <item itemvalue="Application.EstudoComposicao" />
         <item itemvalue="Application.EstudoInterfaces" />
         <item itemvalue="Application.Interface" />
-        <item itemvalue="Application.TesteInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +145,7 @@
       <workItem from="1668974000968" duration="7834000" />
       <workItem from="1669111292566" duration="3998000" />
       <workItem from="1669152891305" duration="3025000" />
-      <workItem from="1669155977211" duration="4886000" />
+      <workItem from="1669155977211" duration="6444000" />
     </task>
     <servers />
   </component>
