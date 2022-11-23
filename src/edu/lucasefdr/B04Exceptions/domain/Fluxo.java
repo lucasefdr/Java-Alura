@@ -14,17 +14,17 @@ public class Fluxo {
         System.out.println("Ini do metodo1");
         try {
             metodo2();
-        } catch (ArithmeticException | NullPointerException ex) {
+        } catch (ArithmeticException | NullPointerException | MinhaException ex) {
             String message = ex.getClass().getSimpleName() + ": " + ex.getMessage();
             System.out.println(message);
         }
         System.out.println("Fim do metodo1");
     }
 
-    private static void metodo2() {
+    private static void metodo2() throws MinhaException {
         System.out.println("Ini do metodo2");
         // "Jogando" a exception para baixo
-        throw new ArithmeticException("throw exception");
+        throw new MinhaException("throw exception");
         // System.out.println("Fim do metodo2");
     }
 }

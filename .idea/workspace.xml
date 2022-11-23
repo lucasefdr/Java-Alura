@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/FluxoComTratamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/FluxoError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/MinhaException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Fluxo.java" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <recent name="edu.lucasefdr.B02OOP1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fluxo">
+  <component name="RunManager" selected="Application.FluxoError">
     <configuration name="EstudoComposicao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.EstudoComposicao" />
       <module name="Java-Alura" />
@@ -68,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstudoInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B03OOP2.interfaces.EstudoInterfaces" />
+    <configuration name="Fluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.Fluxo" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B03OOP2.interfaces.*" />
+          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.Fluxo" />
+    <configuration name="FluxoError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.FluxoError" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FluxoError" />
         <item itemvalue="Application.Fluxo" />
         <item itemvalue="Application.TesteEnum" />
         <item itemvalue="Application.TesteCalculadorImposto" />
         <item itemvalue="Application.EstudoComposicao" />
-        <item itemvalue="Application.EstudoInterfaces" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +150,7 @@
       <workItem from="1669155977211" duration="6591000" />
       <workItem from="1669169670824" duration="705000" />
       <workItem from="1669217336111" duration="7000" />
-      <workItem from="1669235024203" duration="3440000" />
+      <workItem from="1669235024203" duration="6428000" />
     </task>
     <servers />
   </component>
