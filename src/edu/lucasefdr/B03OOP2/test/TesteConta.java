@@ -3,7 +3,7 @@ package edu.lucasefdr.B03OOP2.test;
 import edu.lucasefdr.B03OOP2.model.banco.ContaCorrente;
 import edu.lucasefdr.B03OOP2.model.banco.ContaPoupanca;
 
-public class TestConta {
+public class TesteConta {
     public static void main(String[] args) throws Exception {
         ContaCorrente cc = new ContaCorrente(1111, 9999);
         cc.deposita(900);

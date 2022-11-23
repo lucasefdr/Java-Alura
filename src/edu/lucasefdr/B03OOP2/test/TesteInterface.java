@@ -5,7 +5,7 @@ import edu.lucasefdr.B03OOP2.model.empresa.Cliente;
 import edu.lucasefdr.B03OOP2.model.empresa.Gerente;
 import edu.lucasefdr.B03OOP2.model.empresa.SistemaInterno;
 
-public class TestInterface {
+public class TesteInterface {
     public static void main(String[] args) {
         Gerente gerente = new Gerente();
         gerente.setSenha(1111);

@@ -2,7 +2,7 @@ package edu.lucasefdr.B03OOP2.model.banco;
 
 import edu.lucasefdr.B03OOP2.model.banco.Conta;
 
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta implements Tributavel {
     public ContaCorrente() {
     }
 
@@ -20,5 +20,10 @@ public class ContaCorrente extends Conta {
     @Override
     public void deposita(double valor) {
         super.saldo += valor;
+    }
+
+    @Override
+    public double getValorImposto() {
+        return super.saldo * 0.1;
     }
 }

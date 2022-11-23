@@ -4,7 +4,7 @@ import edu.lucasefdr.B03OOP2.model.empresa.ControleBonificacao;
 import edu.lucasefdr.B03OOP2.model.empresa.Funcionario;
 import edu.lucasefdr.B03OOP2.model.empresa.Gerente;
 
-public class TestGerente {
+public class TesteGerente {
     public static void main(String[] args) {
         Gerente gerente = new Gerente("Eduardo Ferreira", "444-111-999-99", 8000);
         gerente.imprimeInformacoes();
