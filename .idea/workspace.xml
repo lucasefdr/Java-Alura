@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/test/TesteConexao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/Fluxo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/FluxoComTratamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/FluxoComTratamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/FluxoError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/FluxoError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/MinhaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/MinhaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/TesteConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/test/TesteConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/model/Conexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/test/TesteConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/test/TesteConexao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/edu/lucasefdr/B03Polymorphism&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/edu/lucasefdr/B03Polymorphism",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\edu\lucasefdr\B03Polymorphism" />
@@ -60,7 +57,7 @@
       <recent name="edu.lucasefdr.B02OOP1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteSaca">
+  <component name="RunManager" selected="Application.TesteConexao">
     <configuration name="Fluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.Fluxo" />
       <module name="Java-Alura" />
@@ -87,12 +84,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FluxoError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.FluxoError" />
+    <configuration name="TesteConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.test.TesteConexao" />
       <module name="Java-Alura" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.domain.*" />
+          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +124,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Fluxo" />
+      <item itemvalue="Application.FluxoComTratamento" />
+      <item itemvalue="Application.TesteConexao" />
+      <item itemvalue="Application.TesteConta" />
+      <item itemvalue="Application.TesteSaca" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteConexao" />
         <item itemvalue="Application.TesteSaca" />
         <item itemvalue="Application.TesteConta" />
         <item itemvalue="Application.Fluxo" />
         <item itemvalue="Application.FluxoComTratamento" />
-        <item itemvalue="Application.FluxoError" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +160,7 @@
       <workItem from="1669155977211" duration="6591000" />
       <workItem from="1669169670824" duration="705000" />
       <workItem from="1669217336111" duration="7000" />
-      <workItem from="1669235024203" duration="10738000" />
+      <workItem from="1669235024203" duration="12475000" />
     </task>
     <servers />
   </component>
@@ -182,5 +187,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
