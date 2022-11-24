@@ -1,4 +1,4 @@
-package edu.lucasefdr.B04Exceptions.domain;
+package edu.lucasefdr.B04Exceptions;
 
 public class FluxoError {
     public static void main(String[] args) {

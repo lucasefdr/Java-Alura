@@ -1,6 +1,7 @@
 package edu.lucasefdr.B03OOP2.model.banco;
 
 import edu.lucasefdr.B02OOP1.model.Cliente;
+import edu.lucasefdr.B03OOP2.exception.SaldoInsuficienteException;
 
 /**
  * <strong>Classes abstratas:</strong> abstração do mundo real. "Não existe" e não pode ser instanciada.
@@ -35,21 +36,17 @@ public abstract class Conta {
      */
     public abstract void deposita(double valor);
 
-    public boolean saca(double valor) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor;
-            return true;
+    public void saca(double valor) {
+        if (this.saldo <= valor) {
+            throw new SaldoInsuficienteException("Saldo: R$" + this.saldo + ", Valor: R$" + valor);
         }
-        return false;
+        this.saldo -= valor;
     }
 
-    public boolean transfere(double valor, Conta destino) {
-        if (this.saldo <= valor) {
-            return false;
-        }
+    public void transfere(double valor, Conta destino) {
+        // Usamos o método saca(valor) primeiro pois se o mesmo der erro, ele já sai do método
         this.saca(valor);
         destino.deposita(valor);
-        return true;
     }
 
     /**

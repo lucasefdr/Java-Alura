@@ -1,4 +1,4 @@
-package edu.lucasefdr.B04Exceptions.domain;
+package edu.lucasefdr.B04Exceptions;
 
 // checked exception
 public class MinhaException extends Exception {
