@@ -6,6 +6,10 @@ public class TesteSaca {
     public static void main(String[] args) {
         ContaCorrente conta = new ContaCorrente();
         conta.deposita(400);
-        conta.saca(518);
+        try {
+            conta.saca(518);
+        } catch (Exception e) {
+            System.out.println(e.getClass().getSimpleName() + ": " + e.getMessage());
+        }
     }
 }

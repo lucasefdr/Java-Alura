@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SaldoInsuficienteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/test/TesteSaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SaldoInsuficienteException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/Fluxo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/Fluxo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/FluxoComTratamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/FluxoComTratamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/FluxoError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/FluxoError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/MinhaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/MinhaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/domain/TesteConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B04Exceptions/TesteConta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +149,7 @@
       <workItem from="1669155977211" duration="6591000" />
       <workItem from="1669169670824" duration="705000" />
       <workItem from="1669217336111" duration="7000" />
-      <workItem from="1669235024203" duration="8827000" />
+      <workItem from="1669235024203" duration="9296000" />
     </task>
     <servers />
   </component>
