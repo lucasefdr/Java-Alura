@@ -14,7 +14,7 @@ public class Fluxo {
         System.out.println("Ini do metodo1");
         try {
             metodo2();
-        } catch (ArithmeticException | NullPointerException | MinhaException ex) {
+        } catch (Exception ex) {
             String message = ex.getClass().getSimpleName() + ": " + ex.getMessage();
             System.out.println(message);
         }

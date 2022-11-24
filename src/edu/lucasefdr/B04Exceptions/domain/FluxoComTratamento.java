@@ -16,7 +16,8 @@ public class FluxoComTratamento {
             metodo2();
         } catch (ArithmeticException | NullPointerException ex) {
             // ex.printStackTrace();
-            System.out.println(ex.getClass().getSimpleName() + ": " + ex.getMessage());
+            String msg = ex.getClass().getSimpleName() + ": " + ex.getMessage();
+            System.out.println(msg);
         }
         System.out.println("Fim do metodo1");
     }
@@ -27,7 +28,12 @@ public class FluxoComTratamento {
             System.out.println(i);
             // int a = i / 0;
             Conta c = null;
-            c.deposita();
+            try {
+                c.deposita();
+            } catch (Exception ex) {
+                String msg = ex.getClass().getSimpleName() + ": " + ex.getMessage();
+                System.out.println(msg);
+            }
         }
         System.out.println("Fim do metodo2");
     }
