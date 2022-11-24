@@ -1,7 +1,6 @@
 package edu.lucasefdr.B03OOP2.model.banco;
 
-import edu.lucasefdr.B03OOP2.exception.SaldoInsuficienteException;
-import edu.lucasefdr.B03OOP2.model.banco.Conta;
+import edu.lucasefdr.B03OOP2.exception.SacaException;
 
 public class ContaCorrente extends Conta implements Tributavel {
     public ContaCorrente() {
@@ -12,7 +11,7 @@ public class ContaCorrente extends Conta implements Tributavel {
     }
 
     @Override
-    public void saca(double valor) throws SaldoInsuficienteException {
+    public void saca(double valor) throws SacaException {
         double descontoSaque = valor * 0.02;
         valor += descontoSaque;
         super.saca(valor);

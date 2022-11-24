@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SaldoInsuficienteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/exception/SacaException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/lucasefdr/B03OOP2/model/banco/ContaCorrente.java" afterDir="false" />
     </list>
@@ -149,7 +149,7 @@
       <workItem from="1669155977211" duration="6591000" />
       <workItem from="1669169670824" duration="705000" />
       <workItem from="1669217336111" duration="7000" />
-      <workItem from="1669235024203" duration="9296000" />
+      <workItem from="1669235024203" duration="9631000" />
     </task>
     <servers />
   </component>
