@@ -1,4 +1,4 @@
-package edu.lucasefdr.B04Exceptions;
+package edu.lucasefdr.B04Exceptions.model;
 
 public class Fluxo {
     /**

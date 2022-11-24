@@ -1,4 +1,6 @@
-package edu.lucasefdr.B04Exceptions;
+package edu.lucasefdr.B04Exceptions.test;
+
+import edu.lucasefdr.B04Exceptions.model.Conta;
 
 public class TesteConta {
     public static void main(String[] args) {

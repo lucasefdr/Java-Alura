@@ -1,4 +1,4 @@
-package edu.lucasefdr.B04Exceptions;
+package edu.lucasefdr.B04Exceptions.model;
 
 // checked exception
 public class MinhaException extends Exception {
