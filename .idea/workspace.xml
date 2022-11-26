@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B05JavaLang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +56,13 @@
       <recent name="edu.lucasefdr.B02OOP1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteConexao">
-    <configuration name="Fluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.Fluxo" />
+  <component name="RunManager" selected="Application.B05JavaLang">
+    <configuration name="B05JavaLang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B05JavaLang" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.domain.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FluxoComTratamento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.FluxoComTratamento" />
+    <configuration name="Fluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.Fluxo" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -123,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.B05JavaLang" />
       <item itemvalue="Application.Fluxo" />
-      <item itemvalue="Application.FluxoComTratamento" />
       <item itemvalue="Application.TesteConexao" />
       <item itemvalue="Application.TesteConta" />
       <item itemvalue="Application.TesteSaca" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B05JavaLang" />
         <item itemvalue="Application.TesteConexao" />
         <item itemvalue="Application.TesteSaca" />
         <item itemvalue="Application.TesteConta" />
         <item itemvalue="Application.Fluxo" />
-        <item itemvalue="Application.FluxoComTratamento" />
       </list>
     </recent_temporary>
   </component>
