@@ -1,4 +1,4 @@
-package com.github.lucasefdr.B06JavaUtil;
+package com.github.lucasefdr.B06JavaUtil.model;
 
 import com.github.lucasefdr.B03OOP2.exception.SacaException;
 import com.github.lucasefdr.B03OOP2.model.banco.Tributavel;

@@ -1,4 +1,4 @@
-package com.github.lucasefdr.B06JavaUtil;
+package com.github.lucasefdr.B06JavaUtil.model;
 
 public class Cliente {
     private String nome;
