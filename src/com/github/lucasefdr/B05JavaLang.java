@@ -10,7 +10,14 @@ public class B05JavaLang {
         }
 
         name = name.replace("L", "l");
-
         System.out.println(name);
+        name = name.replace('l', 'L' );
+        System.out.println(name);
+
+        System.out.println(name.charAt(0));
+        System.out.println(name.indexOf('a' ));
+        System.out.println(name.length());
+        System.out.println(name.substring(2, 5));
+        System.out.println(name.contains("Luc"));
     }
 }
