@@ -5,7 +5,7 @@ import com.github.lucasefdr.B03OOP2.exception.SacaException;
 /**
  * <strong>Classes abstratas:</strong> abstração do mundo real. "Não existe" e não pode ser instanciada.
  */
-public abstract class Conta {
+public abstract class Object {
     /**
      * <strong>Atributos:</strong> são as propriedades das classes
      */
@@ -18,12 +18,12 @@ public abstract class Conta {
     /**
      * <strong>Construtores:</strong> indicam o que será passado como argumentos na hora da instanciação dos objetos.
      */
-    public Conta() {
-        Conta.totalDeContas++;
+    public Object() {
+        Object.totalDeContas++;
         System.out.println("Total de contas: " + totalDeContas);
     }
 
-    public Conta(int numero, int agencia) {
+    public Object(int numero, int agencia) {
         if (numero <= 0) throw new RuntimeException("Número da conta não pode ser 0 ou negativo");
         if (agencia <= 0) throw new RuntimeException("Número da conta não pode ser 0 ou negativo");
         this.agencia = agencia;
@@ -42,7 +42,7 @@ public abstract class Conta {
         this.saldo -= valor;
     }
 
-    public void transfere(double valor, Conta destino) throws SacaException {
+    public void transfere(double valor, Object destino) throws SacaException {
         // Usamos o método saca(valor) primeiro pois se o mesmo der erro, ele já sai do método
         this.saca(valor);
         destino.deposita(valor);
@@ -68,7 +68,7 @@ public abstract class Conta {
     }
 
     public static int getTotalDeContas() {
-        return Conta.totalDeContas;
+        return Object.totalDeContas;
     }
 
     /**

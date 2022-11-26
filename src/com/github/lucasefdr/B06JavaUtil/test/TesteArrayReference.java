@@ -1,19 +1,19 @@
 package com.github.lucasefdr.B06JavaUtil.test;
 
 import com.github.lucasefdr.B06JavaUtil.model.Cliente;
-import com.github.lucasefdr.B06JavaUtil.model.Conta;
+import com.github.lucasefdr.B06JavaUtil.model.Object;
 import com.github.lucasefdr.B06JavaUtil.model.ContaCorrente;
 import com.github.lucasefdr.B06JavaUtil.model.ContaPoupanca;
 
 public class TesteArrayReference {
     public static void main(String[] args) {
 
-        Conta cc1 = new ContaPoupanca(2244, 333);
-        Conta cc2 = new ContaCorrente(1199, 999);
+        Object cc1 = new ContaPoupanca(2244, 333);
+        Object cc2 = new ContaCorrente(1199, 999);
         Cliente c1 = new Cliente();
         c1.setNome("Lucas Eduardo");
 
-        Object[] referencias = new Object[10];
+        java.lang.Object[] referencias = new java.lang.Object[10];
         referencias[0] = cc1;
         referencias[1] = cc2;
         referencias[2] = c1;

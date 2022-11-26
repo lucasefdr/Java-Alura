@@ -1,6 +1,6 @@
 package com.github.lucasefdr.B06JavaUtil.model;
 
-public class ContaPoupanca extends Conta {
+public class ContaPoupanca extends Object {
     public ContaPoupanca() {
     }
 

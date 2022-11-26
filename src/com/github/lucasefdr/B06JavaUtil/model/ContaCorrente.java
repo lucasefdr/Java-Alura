@@ -3,7 +3,7 @@ package com.github.lucasefdr.B06JavaUtil.model;
 import com.github.lucasefdr.B03OOP2.exception.SacaException;
 import com.github.lucasefdr.B03OOP2.model.banco.Tributavel;
 
-public class ContaCorrente extends Conta implements Tributavel {
+public class ContaCorrente extends Object implements Tributavel {
     public ContaCorrente() {
     }
 
