@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B05JavaLang/A02Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B05JavaLang/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B05JavaLang/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B05JavaLang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B05JavaLang/A01String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/TesteArrayReference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +41,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B05JavaLang",
+    "last_opened_file_path": "C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B06JavaUtil",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B06JavaUtil" />
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B05JavaLang" />
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\edu\lucasefdr\B03Polymorphism" />
     </key>
@@ -60,7 +59,7 @@
       <recent name="edu.lucasefdr.B02OOP1.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A02Object">
+  <component name="RunManager" selected="Application.TesteArrayReference">
     <configuration name="A01String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B05JavaLang.model.A01String" />
       <module name="Java-Alura" />
@@ -87,13 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.test.TesteConexao" />
+    <configuration name="TesteArrayReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.TesteArrayReference" />
       <module name="Java-Alura" />
-      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.domain.TesteConta" />
+    <configuration name="TesteConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.lucasefdr.B04Exceptions.test.TesteConexao" />
       <module name="Java-Alura" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.domain.*" />
+          <option name="PATTERN" value="edu.lucasefdr.B04Exceptions.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +127,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TesteArrayReference" />
       <item itemvalue="Application.A01String" />
       <item itemvalue="Application.A02Object" />
       <item itemvalue="Application.TesteConexao" />
-      <item itemvalue="Application.TesteConta" />
       <item itemvalue="Application.TesteSaca" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteArrayReference" />
         <item itemvalue="Application.A02Object" />
         <item itemvalue="Application.A01String" />
         <item itemvalue="Application.TesteConexao" />
         <item itemvalue="Application.TesteSaca" />
-        <item itemvalue="Application.TesteConta" />
       </list>
     </recent_temporary>
   </component>
