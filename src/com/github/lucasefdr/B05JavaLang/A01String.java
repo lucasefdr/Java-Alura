@@ -1,6 +1,6 @@
-package com.github.lucasefdr;
+package com.github.lucasefdr.B05JavaLang;
 
-public class B05JavaLang {
+public class A01String {
     public static void main(String[] args) {
         String name = "Lucas";
         char[] nameToCharArray = name.toCharArray();
