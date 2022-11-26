@@ -5,7 +5,7 @@ import com.github.lucasefdr.B03OOP2.exception.SacaException;
 /**
  * <strong>Classes abstratas:</strong> abstração do mundo real. "Não existe" e não pode ser instanciada.
  */
-public abstract class Object {
+public abstract class Conta {
     /**
      * <strong>Atributos:</strong> são as propriedades das classes
      */
@@ -18,12 +18,12 @@ public abstract class Object {
     /**
      * <strong>Construtores:</strong> indicam o que será passado como argumentos na hora da instanciação dos objetos.
      */
-    public Object() {
-        Object.totalDeContas++;
+    public Conta() {
+        Conta.totalDeContas++;
         System.out.println("Total de contas: " + totalDeContas);
     }
 
-    public Object(int numero, int agencia) {
+    public Conta(int numero, int agencia) throws RuntimeException {
         if (numero <= 0) throw new RuntimeException("Número da conta não pode ser 0 ou negativo");
         if (agencia <= 0) throw new RuntimeException("Número da conta não pode ser 0 ou negativo");
         this.agencia = agencia;
@@ -42,7 +42,7 @@ public abstract class Object {
         this.saldo -= valor;
     }
 
-    public void transfere(double valor, Object destino) throws SacaException {
+    public void transfere(double valor, Conta destino) throws SacaException {
         // Usamos o método saca(valor) primeiro pois se o mesmo der erro, ele já sai do método
         this.saca(valor);
         destino.deposita(valor);
@@ -68,7 +68,7 @@ public abstract class Object {
     }
 
     public static int getTotalDeContas() {
-        return Object.totalDeContas;
+        return Conta.totalDeContas;
     }
 
     /**
@@ -78,12 +78,10 @@ public abstract class Object {
         this.titular = titular;
     }
 
-    /**
-     * O método {@code toString()} serve para implementarmos o que será exibido na saída quando chamarmos o objeto
-     */
     @Override
     public String toString() {
-        return "Saldo = R$" + saldo + ", Agência = " + agencia + ", Número = " + numero + ", titular = " + titular + '.';
+        return "Saldo = R$" + saldo + ", Agência = " + agencia + ", Número = " + numero + ", titular = " + titular;
     }
 }
+
 

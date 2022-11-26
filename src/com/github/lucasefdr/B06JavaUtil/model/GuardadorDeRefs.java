@@ -1,11 +1,11 @@
 package com.github.lucasefdr.B06JavaUtil.model;
 
-public class GuardadorDeContas {
+public class GuardadorDeRefs {
 
     private Object[] referencias;
     private int posicaoLivre;
 
-    public GuardadorDeContas() {
+    public GuardadorDeRefs() {
         this.referencias = new Object[10];
         this.posicaoLivre = 0;
     }

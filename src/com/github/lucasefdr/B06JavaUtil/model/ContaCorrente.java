@@ -1,9 +1,8 @@
 package com.github.lucasefdr.B06JavaUtil.model;
 
 import com.github.lucasefdr.B03OOP2.exception.SacaException;
-import com.github.lucasefdr.B03OOP2.model.banco.Tributavel;
 
-public class ContaCorrente extends Object implements Tributavel {
+public class ContaCorrente extends Conta {
     public ContaCorrente() {
     }
 
@@ -21,11 +20,6 @@ public class ContaCorrente extends Object implements Tributavel {
     @Override
     public void deposita(double valor) {
         super.saldo += valor;
-    }
-
-    @Override
-    public double getValorImposto() {
-        return super.saldo * 0.1;
     }
 
     @Override
