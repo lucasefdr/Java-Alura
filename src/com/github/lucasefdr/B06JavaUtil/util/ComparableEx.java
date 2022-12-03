@@ -6,10 +6,10 @@ import com.github.lucasefdr.B06JavaUtil.model.ContaCorrente;
 import com.github.lucasefdr.B06JavaUtil.model.ContaPoupanca;
 
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.Collections;
 import java.util.List;
 
-public class StringComparatorEx {
+public class ComparableEx {
     public static void main(String[] args) {
         Conta cc1 = new ContaCorrente(22, 33);
         Cliente clienteCC1 = new Cliente();
@@ -46,26 +46,12 @@ public class StringComparatorEx {
             System.out.println(contas);
         }
 
-        System.out.println("\nOrdenando listas com o comparator\n");
-        // Ordenando a listaDeContas
-        listaDeContas.sort(new TitularDaContaComparator());
+        System.out.println("\nOrdenando listas com o Comparable<>\n");
+        // Ordenando a listaDeContas com o Comparable<>
+        Collections.sort(listaDeContas);
 
         for (Conta contas : listaDeContas) {
             System.out.println(contas);
         }
     }
 }
-
-class TitularDaContaComparator implements Comparator<Conta> {
-
-    @Override
-    public int compare(Conta c1, Conta c2) {
-        String nomeTitularC1 = c1.getTitular().getNome();
-        String nomeTitularC2 = c2.getTitular().getNome();
-
-        return nomeTitularC1.compareTo(nomeTitularC2);
-    }
-}
-
-
-

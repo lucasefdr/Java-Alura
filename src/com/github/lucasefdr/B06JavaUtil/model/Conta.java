@@ -5,7 +5,7 @@ import com.github.lucasefdr.B03OOP2.exception.SacaException;
 /**
  * <strong>Classes abstratas:</strong> abstração do mundo real. "Não existe" e não pode ser instanciada.
  */
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta> {
     /**
      * <strong>Atributos:</strong> são as propriedades das classes
      */
@@ -85,6 +85,7 @@ public abstract class Conta {
 
     /**
      * O método {@code equals} é usado para implementar uma regra de negócio para comparar os objetos
+     *
      * @param ref
      * @return {@code true} se os objetos são iguais de acordo com a regra implementada
      */
@@ -104,6 +105,15 @@ public abstract class Conta {
         int result = agencia;
         result = 31 * result + numero;
         return result;
+    }
+
+
+    /**
+     * Ordenando as contas pro saldo
+     */
+    @Override
+    public int compareTo(Conta outraConta) {
+        return Double.compare(this.saldo, outraConta.saldo);
     }
 }
 
