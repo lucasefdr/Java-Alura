@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/OrderedListEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/WrapperEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/WrapperEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/model/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/model/ContaPoupanca.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="edu.lucasefdr.B03OOP2.model.empresa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WrapperEx">
+  <component name="RunManager" selected="Application.OrderedListEx">
     <configuration name="ArrayListEqualsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ArrayListEqualsEx" />
       <module name="Java-Alura" />
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteArrayReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.test.TesteArrayReference" />
+    <configuration name="OrderedListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.OrderedListEx" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.model.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,17 +123,17 @@
     <list>
       <item itemvalue="Application.ArrayListEqualsEx" />
       <item itemvalue="Application.ArrayListEx" />
+      <item itemvalue="Application.OrderedListEx" />
       <item itemvalue="Application.WrapperEx" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TesteArrayReference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderedListEx" />
         <item itemvalue="Application.WrapperEx" />
         <item itemvalue="Application.ArrayListEqualsEx" />
         <item itemvalue="Application.ArrayListEx" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TesteArrayReference" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,7 @@
       <workItem from="1669419848164" duration="682000" />
       <workItem from="1669647828861" duration="2350000" />
       <workItem from="1669845081815" duration="40000" />
-      <workItem from="1670072648920" duration="8683000" />
+      <workItem from="1670072648920" duration="10148000" />
     </task>
     <servers />
   </component>
