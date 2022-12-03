@@ -6,7 +6,7 @@ import com.github.lucasefdr.B06JavaUtil.model.ContaPoupanca;
 
 import java.util.ArrayList;
 
-public class TesteArrayListEquals {
+public class ArrayListEqualsEx {
     public static void main(String[] args) {
         ArrayList<Conta> contas = new ArrayList<>();
 

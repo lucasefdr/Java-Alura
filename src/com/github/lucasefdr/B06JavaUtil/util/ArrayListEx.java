@@ -6,7 +6,7 @@ import com.github.lucasefdr.B06JavaUtil.model.ContaPoupanca;
 
 import java.util.ArrayList;
 
-public class TesteArrayList {
+public class ArrayListEx {
     public static void main(String[] args) {
         ArrayList<Conta> lista = new ArrayList<>();
 
@@ -35,7 +35,5 @@ public class TesteArrayList {
         for (Conta conta : lista) {
             System.out.println(conta);
         }
-
-
     }
 }
