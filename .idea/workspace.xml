@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/TesteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/TesteArrayListEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/ArrayListEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/WrappersEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <workItem from="1669419848164" duration="682000" />
       <workItem from="1669647828861" duration="2350000" />
       <workItem from="1669845081815" duration="40000" />
-      <workItem from="1670072648920" duration="5259000" />
+      <workItem from="1670072648920" duration="6736000" />
     </task>
     <servers />
   </component>
