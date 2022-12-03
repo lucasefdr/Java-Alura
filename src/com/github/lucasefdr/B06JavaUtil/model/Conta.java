@@ -80,7 +80,7 @@ public abstract class Conta {
 
     @Override
     public String toString() {
-        return "Saldo = R$" + saldo + ", Agência = " + agencia + ", Número = " + numero + ", titular = " + titular;
+        return "Saldo = R$" + saldo + ", Agência = " + agencia + ", Número = " + numero + ", titular = " + titular.getNome();
     }
 
     /**
