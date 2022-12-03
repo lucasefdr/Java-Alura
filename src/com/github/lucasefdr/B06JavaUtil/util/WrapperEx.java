@@ -23,10 +23,32 @@ public class WrapperEx {
 
         System.out.println(anoInteger);
         System.out.println(anoInt);
-        System.out.println(Integer.MAX_VALUE);
-        System.out.println(Integer.MIN_VALUE);
-        System.out.println(Integer.BYTES);
-        System.out.println(Integer.SIZE);
-        System.out.println(Integer.TYPE);
+
+        System.out.println();
+
+        System.out.println("Integer max value: " + Integer.MAX_VALUE);
+        System.out.println("Integer min value: " + Integer.MIN_VALUE);
+        System.out.println("Integer bytes: " + Integer.BYTES);
+        System.out.println("Integer bits: " + Integer.SIZE);
+        System.out.println("Integer primitive tipe: " + Integer.TYPE);
+
+        System.out.println();
+
+        System.out.println("Double max value: " + Double.MAX_VALUE);
+        System.out.println("Double min value: " + Double.MIN_VALUE);
+        System.out.println("Double bytes: " + Double.BYTES);
+        System.out.println("Double bits: " + Double.SIZE);
+        System.out.println("Double primitive tipe: " + Double.TYPE);
+
+        System.out.println();
+
+        // Lista de números a partir da classe genérica Number
+        List<Number> numeros = new ArrayList<>();
+        numeros.add(10);
+        numeros.add(49.4);
+        numeros.add(94F);
+        numeros.add(421L);
+
+        for (Number numero : numeros) System.out.println(numero + ", class " + numero.getClass().getSimpleName());
     }
 }
