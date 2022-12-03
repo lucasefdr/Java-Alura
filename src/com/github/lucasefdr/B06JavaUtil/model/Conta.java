@@ -82,6 +82,29 @@ public abstract class Conta {
     public String toString() {
         return "Saldo = R$" + saldo + ", Agência = " + agencia + ", Número = " + numero + ", titular = " + titular;
     }
+
+    /**
+     * O método {@code equals} é usado para implementar uma regra de negócio para comparar os objetos
+     * @param ref
+     * @return {@code true} se os objetos são iguais de acordo com a regra implementada
+     */
+    @Override
+    public boolean equals(Object ref) {
+        if (this == ref) return true;
+        if (ref == null || getClass() != ref.getClass()) return false;
+
+        Conta conta = (Conta) ref;
+
+        if (agencia != conta.agencia) return false;
+        return numero == conta.numero;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = agencia;
+        result = 31 * result + numero;
+        return result;
+    }
 }
 
 
