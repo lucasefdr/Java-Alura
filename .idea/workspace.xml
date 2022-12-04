@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/ClassesAnonimas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/LambdaEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/ClassesAnonimas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/util/ClassesAnonimasEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +60,35 @@
       <recent name="edu.lucasefdr.B03OOP2.model.empresa" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparableEx">
-    <configuration name="ArrayListEqualsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ArrayListEqualsEx" />
+  <component name="RunManager" selected="Application.ClassesAnonimasEx">
+    <configuration name="ClassesAnonimas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ClassesAnonimas" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassesAnonimasEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ClassesAnonimasEx" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassesAnonimasEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ClassesAnonimasEx" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -111,33 +139,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.WrapperEx" />
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ArrayListEqualsEx" />
+      <item itemvalue="Application.ClassesAnonimasEx" />
       <item itemvalue="Application.ComparableEx" />
       <item itemvalue="Application.OrderedListEx" />
       <item itemvalue="Application.StringComparatorEx" />
-      <item itemvalue="Application.WrapperEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassesAnonimasEx" />
+        <item itemvalue="Application.ClassesAnonimasEx" />
         <item itemvalue="Application.ComparableEx" />
         <item itemvalue="Application.StringComparatorEx" />
         <item itemvalue="Application.OrderedListEx" />
-        <item itemvalue="Application.WrapperEx" />
-        <item itemvalue="Application.ArrayListEqualsEx" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +178,7 @@
       <workItem from="1669419848164" duration="682000" />
       <workItem from="1669647828861" duration="2350000" />
       <workItem from="1669845081815" duration="40000" />
-      <workItem from="1670072648920" duration="12915000" />
+      <workItem from="1670072648920" duration="14168000" />
     </task>
     <servers />
   </component>
