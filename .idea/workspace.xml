@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,11 @@
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B06JavaUtil" />
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B05JavaLang" />
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\edu\lucasefdr\B03Polymorphism" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura" />
+      <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src" />
+      <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B07JavaIO\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.lucasefdr.B06JavaUtil.util" />
@@ -180,7 +185,7 @@
       <workItem from="1669845081815" duration="40000" />
       <workItem from="1670072648920" duration="14886000" />
       <workItem from="1670152239854" duration="13000" />
-      <workItem from="1670283186457" duration="1168000" />
+      <workItem from="1670283186457" duration="1930000" />
     </task>
     <servers />
   </component>

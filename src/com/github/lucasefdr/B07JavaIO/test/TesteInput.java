@@ -20,8 +20,10 @@ public class TesteInput {
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
         String linha = bufferedReader.readLine();
 
-        System.out.println(linha);
-
+        while (linha != null) {
+            System.out.println(linha);
+            linha = bufferedReader.readLine();
+        }
         bufferedReader.close();
     }
 }
