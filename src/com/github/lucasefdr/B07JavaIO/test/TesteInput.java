@@ -11,9 +11,10 @@ public class TesteInput {
      */
     public static void main(String[] args) throws IOException {
         // Fluxo de entrada com arquivo
+        // Lê binário
         FileInputStream fileInputStream = new FileInputStream("lorem.txt");
 
-        // Essa classe sebe ler um FileInputStream - transforma os bits e bytes em caracter
+        // Essa classe sabe ler um FileInputStream - transforma os bits e bytes em caracter
         InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream);
 
         // Essa classe guarda os caracteres em um buffer
