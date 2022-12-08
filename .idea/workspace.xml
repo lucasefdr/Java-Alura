@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestePrintWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loremwriter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/loremwriter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestCurrentTimeMillis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <recent name="edu.lucasefdr.B04Exceptions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestePrintWriter">
+  <component name="RunManager" selected="Application.TestCurrentTimeMillis">
     <configuration name="ClassesAnonimasEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ClassesAnonimasEx" />
       <module name="Java-Alura" />
@@ -79,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TesteFileWriter" />
+    <configuration name="TestCurrentTimeMillis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TestCurrentTimeMillis" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TesteInput" />
+    <configuration name="TesteFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TesteFileWriter" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -145,19 +143,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestCurrentTimeMillis" />
       <item itemvalue="Application.TesteFileWriter" />
       <item itemvalue="Application.TestePrintWriter" />
-      <item itemvalue="Application.TesteInput" />
       <item itemvalue="Application.TesteInputSystem" />
       <item itemvalue="Application.TesteOutput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCurrentTimeMillis" />
         <item itemvalue="Application.TestePrintWriter" />
         <item itemvalue="Application.TesteFileWriter" />
         <item itemvalue="Application.TesteInputSystem" />
         <item itemvalue="Application.TesteOutput" />
-        <item itemvalue="Application.TesteInput" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +186,7 @@
       <workItem from="1670152239854" duration="13000" />
       <workItem from="1670283186457" duration="3725000" />
       <workItem from="1670371992524" duration="35000" />
-      <workItem from="1670465023198" duration="2094000" />
+      <workItem from="1670465023198" duration="2655000" />
     </task>
     <servers />
   </component>
