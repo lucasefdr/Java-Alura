@@ -1,2 +1,3 @@
-testando FileWriter
-testando FileWriter e continuando...
+testando PrintStream
+
+testando PrintStream e continuando

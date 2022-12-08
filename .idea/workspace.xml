@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteInputSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestePrintWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/loremwriter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/loremwriter.txt" afterDir="false" />
     </list>
@@ -66,20 +65,7 @@
       <recent name="edu.lucasefdr.B04Exceptions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteFileWriter">
-    <configuration name="ClassesAnonimasEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ClassesAnonimasEx" />
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestePrintWriter">
     <configuration name="ClassesAnonimasEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ClassesAnonimasEx" />
       <module name="Java-Alura" />
@@ -145,20 +131,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestePrintWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TestePrintWriter" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.B07JavaIO.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TesteFileWriter" />
+      <item itemvalue="Application.TestePrintWriter" />
       <item itemvalue="Application.TesteInput" />
       <item itemvalue="Application.TesteInputSystem" />
       <item itemvalue="Application.TesteOutput" />
-      <item itemvalue="Application.ClassesAnonimasEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestePrintWriter" />
         <item itemvalue="Application.TesteFileWriter" />
         <item itemvalue="Application.TesteInputSystem" />
         <item itemvalue="Application.TesteOutput" />
         <item itemvalue="Application.TesteInput" />
-        <item itemvalue="Application.ClassesAnonimasEx" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,7 @@
       <workItem from="1670152239854" duration="13000" />
       <workItem from="1670283186457" duration="3725000" />
       <workItem from="1670371992524" duration="35000" />
-      <workItem from="1670465023198" duration="313000" />
+      <workItem from="1670465023198" duration="2094000" />
     </task>
     <servers />
   </component>
