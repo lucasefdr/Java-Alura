@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestUnicodeEncoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestScanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B06JavaUtil&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B06JavaUtil",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B06JavaUtil" />
@@ -64,7 +64,7 @@
       <recent name="edu.lucasefdr.B04Exceptions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestUnicodeEncoding">
+  <component name="RunManager" selected="Application.TestScanner">
     <configuration name="TestCurrentTimeMillis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TestCurrentTimeMillis" />
       <module name="Java-Alura" />
@@ -139,8 +139,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestUnicodeEncoding" />
         <item itemvalue="Application.TestScanner" />
+        <item itemvalue="Application.TestUnicodeEncoding" />
         <item itemvalue="Application.TestCurrentTimeMillis" />
         <item itemvalue="Application.TestePrintWriter" />
         <item itemvalue="Application.TesteFileWriter" />
@@ -175,7 +175,7 @@
       <workItem from="1670283186457" duration="3725000" />
       <workItem from="1670371992524" duration="35000" />
       <workItem from="1670465023198" duration="2655000" />
-      <workItem from="1670673056493" duration="4594000" />
+      <workItem from="1670673056493" duration="5642000" />
     </task>
     <servers />
   </component>
