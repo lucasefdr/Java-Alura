@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/model/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B04Exceptions/model/FluxoComTratamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B04Exceptions/test/TesteFluxoComTratamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestCurrentTimeMillis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteCurrentTimeMillis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TestUnicodeEncoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteUnicodeEncoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/test/TesteArrayReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B06JavaUtil/test/TesteArrayReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B07JavaIO/test/TesteSerialization.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,20 +62,20 @@
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B07JavaIO\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.github.lucasefdr.B07JavaIO" />
       <recent name="com.github.lucasefdr.B07JavaIO.test" />
       <recent name="com.github.lucasefdr.B06JavaUtil.util" />
       <recent name="com.github.lucasefdr.B06JavaUtil.model" />
       <recent name="com.github.lucasefdr.B06JavaUtil" />
-      <recent name="edu.lucasefdr.B04Exceptions.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteSerialization">
-    <configuration name="TesteCurrentTimeMillis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TesteCurrentTimeMillis" />
+  <component name="RunManager" selected="Application.ComparableEx">
+    <configuration name="ComparableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ComparableEx" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B07JavaIO.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestePrintWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TestePrintWriter" />
+    <configuration name="TesteCurrentTimeMillis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B07JavaIO.test.TesteCurrentTimeMillis" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -138,19 +136,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ComparableEx" />
       <item itemvalue="Application.TesteCurrentTimeMillis" />
       <item itemvalue="Application.TesteScanner" />
       <item itemvalue="Application.TesteSerialization" />
       <item itemvalue="Application.TesteUnicodeEncoding" />
-      <item itemvalue="Application.TestePrintWriter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparableEx" />
         <item itemvalue="Application.TesteSerialization" />
         <item itemvalue="Application.TesteScanner" />
         <item itemvalue="Application.TesteUnicodeEncoding" />
         <item itemvalue="Application.TesteCurrentTimeMillis" />
-        <item itemvalue="Application.TestePrintWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +180,7 @@
       <workItem from="1670283186457" duration="3725000" />
       <workItem from="1670371992524" duration="35000" />
       <workItem from="1670465023198" duration="2655000" />
-      <workItem from="1670673056493" duration="7671000" />
+      <workItem from="1670673056493" duration="10197000" />
     </task>
     <servers />
   </component>

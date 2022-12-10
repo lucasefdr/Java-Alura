@@ -1,5 +1,7 @@
 package com.github.lucasefdr.B07JavaIO.test;
 
+import com.github.lucasefdr.B07JavaIO.model.Cliente;
+
 import java.io.*;
 
 public class TesteSerialization {
@@ -15,5 +17,22 @@ public class TesteSerialization {
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream("objeto.bin"));
         String objectInput = (String) ois.readObject();
         System.out.println(objectInput);
+        ois.close();
+
+        // Transformando um objeto Cliente em um stream de bits e bytes
+        Cliente cliente = new Cliente();
+        cliente.setNome("Lucas Eduardo");
+        cliente.setProfissao("Desenvolvedor");
+
+//        ObjectOutputStream oosCliente = new ObjectOutputStream(new FileOutputStream("cliente.bin"));
+//        oosCliente.writeObject(cliente);
+//        oosCliente.close();
+
+        // Transformando um binário para um stream de caracteres
+        ObjectInputStream oisCliente = new ObjectInputStream(new FileInputStream("cliente.bin"));
+        Cliente objectInputCliente = (Cliente) oisCliente.readObject();
+        System.out.println(objectInputCliente.getNome());
+        System.out.println(objectInputCliente.getProfissao());
+        oisCliente.close();
     }
 }

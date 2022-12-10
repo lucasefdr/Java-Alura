@@ -20,7 +20,7 @@ public class TesteArrayReference {
 
         // type cast para indicar que a Conta do array é uma ContaCorrente
         ContaCorrente refContaCorrente = (ContaCorrente) referencias[1];
-        Cliente refClente = (Cliente) referencias[2];
+        Cliente refCliente = (Cliente) referencias[2];
 
         // cc2, contaCorrentes2 e ref apontam para o MESMO objeto
         System.out.println(cc2.getNumero());
@@ -29,7 +29,7 @@ public class TesteArrayReference {
 
         System.out.println();
 
-        System.out.println(refClente.getNome());
+        System.out.println(refCliente.getNome());
 
         System.out.println();
 
