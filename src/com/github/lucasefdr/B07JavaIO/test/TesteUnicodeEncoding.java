@@ -3,9 +3,8 @@ package com.github.lucasefdr.B07JavaIO.test;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
 
-public class TestUnicodeEncoding {
+public class TesteUnicodeEncoding {
     public static void main(String[] args) throws UnsupportedEncodingException {
         String s = "C";
         // retorna o valor da tabela Unicode

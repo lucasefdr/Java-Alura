@@ -1,6 +1,8 @@
-package com.github.lucasefdr.B04Exceptions.model;
+package com.github.lucasefdr.B04Exceptions.test;
 
-public class FluxoComTratamento {
+import com.github.lucasefdr.B04Exceptions.model.Conta;
+
+public class TesteFluxoComTratamento {
     /**
      * Exemplo de call stack
      */

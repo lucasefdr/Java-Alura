@@ -2,7 +2,7 @@ package com.github.lucasefdr.B07JavaIO.test;
 
 import java.io.*;
 
-public class TestCurrentTimeMillis {
+public class TesteCurrentTimeMillis {
     public static void main(String[] args) throws IOException {
         // Testando performance
 
