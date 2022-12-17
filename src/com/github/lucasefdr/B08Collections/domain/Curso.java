@@ -47,4 +47,7 @@ public class Curso {
     }
 
 
+    public boolean estaMatriculado(Aluno aluno) {
+        return getAlunos().contains(aluno);
+    }
 }

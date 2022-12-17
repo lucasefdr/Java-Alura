@@ -25,5 +25,11 @@ public class TesteCursoAluno {
         System.out.println("Lista de alunos matriculados");
         javaCollections.getAlunos().forEach(System.out::println);
 
+        System.out.println(javaCollections.estaMatriculado(a1));
+
+        Aluno lucas = new Aluno("Lucas Eduardo", 31232);
+
+        System.out.println(javaCollections.estaMatriculado(lucas));
+
     }
 }
