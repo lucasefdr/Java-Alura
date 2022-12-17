@@ -4,7 +4,9 @@ import com.github.lucasefdr.B08Collections.domain.Aluno;
 import com.github.lucasefdr.B08Collections.domain.Aula;
 import com.github.lucasefdr.B08Collections.domain.Curso;
 
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class TesteCursoAluno {
     public static void main(String[] args) {
@@ -31,5 +33,11 @@ public class TesteCursoAluno {
 
         System.out.println(javaCollections.estaMatriculado(lucas));
 
+        System.out.println();
+
+        Set<Aluno> alunos = javaCollections.getAlunos();
+        Iterator<Aluno> iterador = alunos.iterator();
+
+        while (iterador.hasNext()) System.out.println(iterador.next());
     }
 }
