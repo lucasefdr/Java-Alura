@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/domain/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/test/TesteCurso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/test/TestePerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/domain/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/test/TesteAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/test/TesteCursoAluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/domain/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/domain/Curso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +70,13 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteCurso">
-    <configuration name="ComparableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B06JavaUtil.util.ComparableEx" />
+  <component name="RunManager" selected="Application.TesteCursoAluno">
+    <configuration name="TesteAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TesteAluno" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B06JavaUtil.util.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B08Collections.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TesteLists" />
+    <configuration name="TesteCursoAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TesteCursoAluno" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -136,19 +137,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TesteAluno" />
       <item itemvalue="Application.TesteCurso" />
-      <item itemvalue="Application.TesteLists" />
+      <item itemvalue="Application.TesteCursoAluno" />
       <item itemvalue="Application.TesteListsObjects" />
       <item itemvalue="Application.TestePerformance" />
-      <item itemvalue="Application.ComparableEx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteCursoAluno" />
+        <item itemvalue="Application.TesteAluno" />
         <item itemvalue="Application.TesteCurso" />
         <item itemvalue="Application.TestePerformance" />
         <item itemvalue="Application.TesteListsObjects" />
-        <item itemvalue="Application.TesteLists" />
-        <item itemvalue="Application.ComparableEx" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +183,7 @@
       <workItem from="1670465023198" duration="2655000" />
       <workItem from="1670673056493" duration="10372000" />
       <workItem from="1670977142435" duration="7000" />
-      <workItem from="1671294735640" duration="6046000" />
+      <workItem from="1671294735640" duration="8834000" />
     </task>
     <servers />
   </component>

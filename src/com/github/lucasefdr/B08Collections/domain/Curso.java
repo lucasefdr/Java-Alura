@@ -1,14 +1,12 @@
 package com.github.lucasefdr.B08Collections.domain;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Curso {
     private String nome;
     private String instrutor;
     private List<Aula> aulas = new ArrayList<>();
+    private Set<Aluno> alunos = new HashSet<>();
 
     public Curso(String nome, String instrutor) {
         this.nome = nome;
@@ -27,22 +25,26 @@ public class Curso {
         return Collections.unmodifiableList(aulas);
     }
 
+    public Set<Aluno> getAlunos() {
+        return Collections.unmodifiableSet(alunos);
+    }
+
     public void adiciona(Aula aula) {
         this.aulas.add(aula);
     }
 
+    public void matricula(Aluno aluno) {
+        this.alunos.add(aluno);
+    }
+
     public int getTempoTotal() {
         return this.aulas.stream().mapToInt(Aula::getTempo).sum();
-
-//        int tempoTotal = 0;
-//        for (Aula aula : aulas) {
-//            tempoTotal += aula.getTempo();
-//        }
-//        return tempoTotal;
     }
 
     @Override
     public String toString() {
         return "[Curso: " + nome + ", tempo total: " + getTempoTotal() + ", aulas: " + aulas + "]";
     }
+
+
 }
