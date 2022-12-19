@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B09Java8/A01OrdenaString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +180,7 @@
       <workItem from="1671294735640" duration="11772000" />
       <workItem from="1671319341545" duration="68000" />
       <workItem from="1671322744909" duration="2090000" />
-      <workItem from="1671490565714" duration="1102000" />
+      <workItem from="1671490565714" duration="1819000" />
     </task>
     <servers />
   </component>

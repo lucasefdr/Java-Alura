@@ -35,7 +35,12 @@ public class A01OrdenaString {
         System.out.println();
 
         // Modo novo de percorrer uma lista com o default method forEach(Consumer<>)
-        palavras.forEach(new ImprimeNaLinha());
+        palavras.forEach(new Consumer<String>() {
+            @Override
+            public void accept(String s) {
+                System.out.println(s);
+            }
+        });
 
         System.out.println();
 
@@ -46,14 +51,6 @@ public class A01OrdenaString {
 
         // Usando reference method
         palavras.forEach(System.out::println);
-    }
-}
-
-class ImprimeNaLinha implements Consumer<String> {
-
-    @Override
-    public void accept(String s) {
-        System.out.println(s);
     }
 }
 
