@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/test/TesteBuscaAlunoPorMatricula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B09Java8/A01OrdenaString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/domain/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B08Collections/domain/Curso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,20 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteBuscaAlunoPorMatricula">
+  <component name="RunManager" selected="Application.A01OrdenaString">
+    <configuration name="A01OrdenaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B09Java8.A01OrdenaString" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.B09Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TesteAluno" />
       <module name="Java-Alura" />
@@ -121,33 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestePerformance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TestePerformance" />
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B08Collections.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.A01OrdenaString" />
       <item itemvalue="Application.TesteBuscaAlunoPorMatricula" />
       <item itemvalue="Application.TesteAluno" />
       <item itemvalue="Application.TesteCurso" />
       <item itemvalue="Application.TesteCursoAluno" />
-      <item itemvalue="Application.TestePerformance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A01OrdenaString" />
         <item itemvalue="Application.TesteBuscaAlunoPorMatricula" />
         <item itemvalue="Application.TesteCursoAluno" />
         <item itemvalue="Application.TesteAluno" />
         <item itemvalue="Application.TesteCurso" />
-        <item itemvalue="Application.TestePerformance" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +182,8 @@
       <workItem from="1670977142435" duration="7000" />
       <workItem from="1671294735640" duration="11772000" />
       <workItem from="1671319341545" duration="68000" />
-      <workItem from="1671322744909" duration="1686000" />
+      <workItem from="1671322744909" duration="2090000" />
+      <workItem from="1671490565714" duration="1102000" />
     </task>
     <servers />
   </component>
