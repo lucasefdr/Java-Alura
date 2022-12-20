@@ -27,6 +27,13 @@ public class A01OrdenaString {
 
         System.out.println();
 
+        // Usando lambda expression
+        System.out.println("sort + comparator com lambda");
+        palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+        System.out.println(palavras);
+
+        System.out.println();
+
         // Modo antigo de percorrer uma lista com foreach
         for (String palavra : palavras) {
             System.out.println(palavra);

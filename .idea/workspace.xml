@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="" />
+    <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B09Java8/A01OrdenaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B09Java8/A01OrdenaString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +24,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -180,7 +188,7 @@
       <workItem from="1671294735640" duration="11772000" />
       <workItem from="1671319341545" duration="68000" />
       <workItem from="1671322744909" duration="2090000" />
-      <workItem from="1671490565714" duration="1819000" />
+      <workItem from="1671490565714" duration="3198000" />
     </task>
     <servers />
   </component>
