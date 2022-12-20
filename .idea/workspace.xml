@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/CalculadoraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/service/BonusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/BonusServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Alura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Alura.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Startup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/model/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.lucasefdr.B10TDD.test" />
       <recent name="com.github.lucasefdr.B10TDD" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -88,55 +92,66 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculadoraTest.deveSomarDoisNumerosPositivos">
-    <configuration name="A01OrdenaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B09Java8.A01OrdenaString" />
+  <component name="RunManager" selected="JUnit.BonusServiceTest.bonus">
+    <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B09Java8.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A02ExemploStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B09Java8.A02ExemploStreams" />
+    <configuration name="BonusServiceTest.bonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B09Java8.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
+      <option name="METHOD_NAME" value="bonus" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B09Java8.A03Date" />
+    <configuration name="BonusServiceTest.bonusDeveriaSerDezPorCentoDoSalario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B09Java8.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
+      <option name="METHOD_NAME" value="bonusDeveriaSerDezPorCentoDoSalario" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteBuscaAlunoPorMatricula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TesteBuscaAlunoPorMatricula" />
+    <configuration name="BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B08Collections.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
+      <option name="METHOD_NAME" value="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,12 +160,12 @@
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.CalculadoraTest" />
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.CalculadoraTest" />
       <option name="METHOD_NAME" value="deveSomarDoisNumerosPositivos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -158,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A01OrdenaString" />
-      <item itemvalue="Application.A02ExemploStreams" />
-      <item itemvalue="Application.A03Date" />
-      <item itemvalue="Application.TesteBuscaAlunoPorMatricula" />
+      <item itemvalue="JUnit.BonusServiceTest" />
+      <item itemvalue="JUnit.BonusServiceTest.bonus" />
+      <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerDezPorCentoDoSalario" />
+      <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
       <item itemvalue="JUnit.CalculadoraTest.deveSomarDoisNumerosPositivos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusServiceTest.bonus" />
+        <item itemvalue="JUnit.BonusServiceTest" />
+        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerDezPorCentoDoSalario" />
+        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
         <item itemvalue="JUnit.CalculadoraTest.deveSomarDoisNumerosPositivos" />
-        <item itemvalue="Application.A03Date" />
-        <item itemvalue="Application.A02ExemploStreams" />
-        <item itemvalue="Application.A01OrdenaString" />
-        <item itemvalue="Application.TesteBuscaAlunoPorMatricula" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +222,7 @@
       <workItem from="1671294735640" duration="11772000" />
       <workItem from="1671319341545" duration="68000" />
       <workItem from="1671322744909" duration="2090000" />
-      <workItem from="1671490565714" duration="12397000" />
+      <workItem from="1671490565714" duration="14217000" />
     </task>
     <servers />
   </component>

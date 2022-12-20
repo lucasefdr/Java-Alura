@@ -1,4 +1,4 @@
-package com.github.lucasefdr.B10TDD;
+package com.github.lucasefdr.B10TDD.model;
 
 public class Calculadora {
 
