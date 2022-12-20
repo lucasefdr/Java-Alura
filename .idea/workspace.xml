@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B09Java8/A03Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Alura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Alura.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,20 +42,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B06JavaUtil&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B06JavaUtil",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B06JavaUtil" />
@@ -64,6 +74,12 @@
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src" />
       <recent name="C:\Users\lcsef\Documents\wslucasefdr\Java-Alura\src\com\github\lucasefdr\B07JavaIO\test" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.github.lucasefdr.B10TDD" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.lucasefdr.B07JavaIO" />
       <recent name="com.github.lucasefdr.B07JavaIO.test" />
@@ -72,7 +88,7 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.A03Date">
+  <component name="RunManager" selected="JUnit.CalculadoraTest.deveSomarDoisNumerosPositivos">
     <configuration name="A01OrdenaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B09Java8.A01OrdenaString" />
       <module name="Java-Alura" />
@@ -125,15 +141,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCursoAluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B08Collections.test.TesteCursoAluno" />
+    <configuration name="CalculadoraTest.deveSomarDoisNumerosPositivos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B08Collections.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.CalculadoraTest" />
+      <option name="METHOD_NAME" value="deveSomarDoisNumerosPositivos" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,15 +162,15 @@
       <item itemvalue="Application.A02ExemploStreams" />
       <item itemvalue="Application.A03Date" />
       <item itemvalue="Application.TesteBuscaAlunoPorMatricula" />
-      <item itemvalue="Application.TesteCursoAluno" />
+      <item itemvalue="JUnit.CalculadoraTest.deveSomarDoisNumerosPositivos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest.deveSomarDoisNumerosPositivos" />
         <item itemvalue="Application.A03Date" />
         <item itemvalue="Application.A02ExemploStreams" />
         <item itemvalue="Application.A01OrdenaString" />
         <item itemvalue="Application.TesteBuscaAlunoPorMatricula" />
-        <item itemvalue="Application.TesteCursoAluno" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +207,7 @@
       <workItem from="1671294735640" duration="11772000" />
       <workItem from="1671319341545" duration="68000" />
       <workItem from="1671322744909" duration="2090000" />
-      <workItem from="1671490565714" duration="11149000" />
+      <workItem from="1671490565714" duration="12397000" />
     </task>
     <servers />
   </component>
