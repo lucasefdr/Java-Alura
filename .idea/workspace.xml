@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/model/Desempenho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/service/ReajusteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/ReajusteServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/model/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/service/BonusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/service/BonusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/BonusServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +91,8 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReajusteServiceTest">
-    <configuration name="BonusServiceTest.bonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto">
+    <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +102,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
-      <option name="METHOD_NAME" value="bonus" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
+      <option name="METHOD_NAME" value="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,22 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.ReajusteServiceTest" />
-      <option name="METHOD_NAME" value="reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Alura" />
       <extension name="coverage">
@@ -177,17 +173,17 @@
     <list>
       <item itemvalue="JUnit.ReajusteServiceTest" />
       <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
-      <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
       <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
-      <item itemvalue="JUnit.BonusServiceTest.bonus" />
+      <item itemvalue="JUnit.BonusServiceTest" />
+      <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
+        <item itemvalue="JUnit.BonusServiceTest" />
         <item itemvalue="JUnit.ReajusteServiceTest" />
         <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
         <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
-        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeTresPorCentoQuandoDesempenhoForADesejar" />
-        <item itemvalue="JUnit.BonusServiceTest.bonus" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +221,7 @@
       <workItem from="1671319341545" duration="68000" />
       <workItem from="1671322744909" duration="2090000" />
       <workItem from="1671490565714" duration="14657000" />
-      <workItem from="1671577673152" duration="3039000" />
+      <workItem from="1671577673152" duration="3416000" />
     </task>
     <servers />
   </component>

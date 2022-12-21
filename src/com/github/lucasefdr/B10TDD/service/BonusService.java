@@ -10,7 +10,7 @@ public class BonusService {
         BigDecimal valor = funcionario.getSalario().multiply(new BigDecimal("0.1"));
 
         if (valor.compareTo(new BigDecimal("1000")) > 0) {
-            valor = BigDecimal.ZERO;
+            throw new IllegalArgumentException("O funcionário tem salário maior que R$ 10.000,00");
         }
         return valor;
     }
