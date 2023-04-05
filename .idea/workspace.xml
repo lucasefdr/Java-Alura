@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/service/BonusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/service/BonusService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/BonusServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X01Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X02Operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X03Conditional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/ReajusteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/ReajusteServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,7 +56,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lcsef/Documents/wslucasefdr/Java-Alura/src/com/github/lucasefdr/B06JavaUtil&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lcsef/Documents/wsLucas/AL-Java-Intro&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -91,18 +94,42 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto">
-    <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.X03Conditional">
+    <configuration name="X01Comments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X01Comments" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="X02Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X02Operators" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="X03Conditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X03Conditional" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,52 +165,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.ReajusteServiceTest" />
-      <option name="METHOD_NAME" value="reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.ReajusteServiceTest" />
-      <option name="METHOD_NAME" value="reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.X01Comments" />
+      <item itemvalue="Application.X02Operators" />
+      <item itemvalue="Application.X03Conditional" />
       <item itemvalue="JUnit.ReajusteServiceTest" />
-      <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
-      <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
-      <item itemvalue="JUnit.BonusServiceTest" />
       <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
-        <item itemvalue="JUnit.BonusServiceTest" />
+        <item itemvalue="Application.X03Conditional" />
+        <item itemvalue="Application.X02Operators" />
+        <item itemvalue="Application.X01Comments" />
         <item itemvalue="JUnit.ReajusteServiceTest" />
-        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeVintePorCentoQuandoDesempenhoForOtimo" />
-        <item itemvalue="JUnit.ReajusteServiceTest.reajusteDeveriaSerDeQuinzePorCentoQuandoDesempenhoForBom" />
+        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +216,10 @@
       <workItem from="1671319341545" duration="68000" />
       <workItem from="1671322744909" duration="2090000" />
       <workItem from="1671490565714" duration="14657000" />
-      <workItem from="1671577673152" duration="3416000" />
+      <workItem from="1671577673152" duration="4088000" />
+      <workItem from="1671661950335" duration="21000" />
+      <workItem from="1680655964327" duration="1503000" />
+      <workItem from="1680716895794" duration="1913000" />
     </task>
     <servers />
   </component>
