@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f167356d-d770-45d4-822b-70653923d11e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X01Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X02Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X03Conditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X04Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X05Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/X01Review/X06ArraysClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/ReajusteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/lucasefdr/B10TDD/test/ReajusteServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +93,7 @@
       <recent name="com.github.lucasefdr.B06JavaUtil" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.X03Conditional">
-    <configuration name="X01Comments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X01Comments" />
-      <module name="Java-Alura" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.X06ArraysClass">
     <configuration name="X02Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X02Operators" />
       <module name="Java-Alura" />
@@ -134,51 +120,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="X04Loop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X04Loop" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.BonusServiceTest" />
-      <option name="METHOD_NAME" value="bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReajusteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="X05Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X05Array" />
       <module name="Java-Alura" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lucasefdr.B10TDD.test.*" />
+          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.lucasefdr.B10TDD.test" />
-      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.B10TDD.test.ReajusteServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="X06ArraysClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lucasefdr.X01Review.X06ArraysClass" />
+      <module name="Java-Alura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lucasefdr.X01Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.X01Comments" />
       <item itemvalue="Application.X02Operators" />
       <item itemvalue="Application.X03Conditional" />
-      <item itemvalue="JUnit.ReajusteServiceTest" />
-      <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
+      <item itemvalue="Application.X04Loop" />
+      <item itemvalue="Application.X05Array" />
+      <item itemvalue="Application.X06ArraysClass" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.X06ArraysClass" />
+        <item itemvalue="Application.X05Array" />
+        <item itemvalue="Application.X04Loop" />
         <item itemvalue="Application.X03Conditional" />
         <item itemvalue="Application.X02Operators" />
-        <item itemvalue="Application.X01Comments" />
-        <item itemvalue="JUnit.ReajusteServiceTest" />
-        <item itemvalue="JUnit.BonusServiceTest.bonusDeveriaSerZeroParaFuncionarioComSalarioMuitoAlto" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +213,7 @@
       <workItem from="1671577673152" duration="4088000" />
       <workItem from="1671661950335" duration="21000" />
       <workItem from="1680655964327" duration="1503000" />
-      <workItem from="1680716895794" duration="1913000" />
+      <workItem from="1680716895794" duration="4922000" />
     </task>
     <servers />
   </component>
